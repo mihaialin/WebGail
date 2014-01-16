@@ -11,8 +11,11 @@ namespace WebGail
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Label1.Text = About.test;
-
+            Label1.Text = About.prediction.ToString() + " years prediction: ";
+            Label2.Text = "Your risk: " + About.predictionResult.ToString();
+            Label3.Text = "Average risk: " + About.averageRisk.ToString();
+            Label4.Text = "Your risk: " + About.absRiskPctg.ToString();
+            Label5.Text = "Average risk: " + About.avgRiskPctg.ToString();
         }
     }
 }

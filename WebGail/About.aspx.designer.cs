@@ -49,76 +49,76 @@ namespace WebGail {
         protected global::System.Web.UI.WebControls.TextBox email;
         
         /// <summary>
-        /// DropDownList1 control.
+        /// raceInput control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+        protected global::System.Web.UI.WebControls.DropDownList raceInput;
         
         /// <summary>
-        /// email0 control.
+        /// projection control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox email0;
+        protected global::System.Web.UI.WebControls.TextBox projection;
         
         /// <summary>
-        /// email1 control.
+        /// menarch control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox email1;
+        protected global::System.Web.UI.WebControls.TextBox menarch;
         
         /// <summary>
-        /// email2 control.
+        /// firstChild control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox email2;
+        protected global::System.Web.UI.WebControls.TextBox firstChild;
         
         /// <summary>
-        /// DropDownList2 control.
+        /// biopsy control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList2;
+        protected global::System.Web.UI.WebControls.DropDownList biopsy;
         
         /// <summary>
-        /// email3 control.
+        /// numbByopsies control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox email3;
+        protected global::System.Web.UI.WebControls.TextBox numbByopsies;
         
         /// <summary>
-        /// email4 control.
+        /// firstRelatives control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox email4;
+        protected global::System.Web.UI.WebControls.TextBox firstRelatives;
         
         /// <summary>
-        /// DropDownList3 control.
+        /// hyper control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList3;
+        protected global::System.Web.UI.WebControls.DropDownList hyper;
         
         /// <summary>
         /// evaluate control.

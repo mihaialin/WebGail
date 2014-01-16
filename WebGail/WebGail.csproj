@@ -186,6 +186,7 @@
     <Content Include="Images\accent.png" />
     <Content Include="Images\bg.jpg" />
     <Content Include="Images\bullet.png" />
+    <Content Include="Images\chickrunning.jpg" />
     <Content Include="Images\evaluate.jpg" />
     <Content Include="Images\gestarted.jpg" />
     <Content Include="Images\heroAccent.png" />
