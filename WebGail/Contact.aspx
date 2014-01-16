@@ -34,11 +34,10 @@
 
     <section class="contact">
         <header>
-            <h3>Address:</h3>
+            <h3>Details:</h3>
         </header>
-        <p>
-            One Microsoft Way<br />
-            Redmond, WA 98052-6399
+        <p style ="height:400px;">
+            <asp:Label ID="Label6" runat="server" Text="Label"></asp:Label>
         </p>
     </section>
 </asp:Content>
