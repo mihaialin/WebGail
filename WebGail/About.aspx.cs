@@ -16,6 +16,9 @@ namespace WebGail
         public static double predictionResult = 0.0;
         public static double averageRisk = 0.0;
         public static double absRisk = 0, avgRisk = 0, absRiskPctg = 0, avgRiskPctg = 0;
+        public static string fname, lname, emailv, bday, racev, proj, men, fchild, bio, rel, hy;
+
+
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -50,6 +53,22 @@ namespace WebGail
             // Calculate lifetime risk.
             Helper.RiskCalc(0, currentAge, 90, menarcheAge, firstLiveBirthAge, hadBiopsy, numBiopsy, hyperPlasia, firstDegreeRel, race, out absRisk, out avgRisk);
             Helper.CalcPercentage(absRisk, avgRisk, out absRiskPctg, out avgRiskPctg);
+
+            //fname, lname, emailv, bday, racev, proj, men, fchild, bio, rel, hy;
+            fname = firstName.Text;
+            lname = lastName.Text;
+            emailv = email.Text;
+            bday = birthDate.Text;
+            racev = (raceInput.SelectedValue).ToString();
+            proj = projection.Text;
+            men = projection.Text;
+            fchild = projection.Text;
+            bio = biopsy.Text;
+            rel = firstRelatives.Text;
+            hy = hyper.SelectedItem.ToString();
+
+
+
 
             Response.Redirect("Contact.aspx");
         }
