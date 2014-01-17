@@ -254,6 +254,16 @@ section.feature {
 ol.round {
     list-style-type: none;
     padding: 20px;
+    color:#000;
+    z-index:100;
+}
+ol.bg {
+    position:absolute;
+    width:100%;
+    heigt:100%;
+    z-index:0;
+    list-style-type: none;
+    padding: 20px;
     opacity:0.4;
     background-color:#fff;
     color:#000;

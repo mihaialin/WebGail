@@ -37,7 +37,7 @@ namespace WebGail
             currentUser.lifeResult = About.absRiskPctg.ToString();
 
 
-            string cs = @"server=localhost;userid=root;database=oop_project";
+            string cs = @"server=wildmedia.ro;userid=wildmedi_oop;password=ayo1993;database=wildmedi_oop";
             MySqlConnection conn = null;
             conn = new MySqlConnection(cs);
             conn.Open();

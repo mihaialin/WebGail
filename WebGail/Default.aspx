@@ -18,6 +18,7 @@
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <h3 style ="color:#fff;">Before you get started:</h3>
     <ol class="round">
+        
         <li class="one">
            The Breast Cancer Risk Assessment Tool was designed for use by health professionals. If you are not a health professional, you are encouraged to discuss the results and your personal risk of breast cancer with your doctor. 
         </li>
@@ -27,9 +28,10 @@
         <li class="three">
             The tool should not be used to calculate breast cancer risk for women who have already had a diagnosis of breast cancer, lobular carcinoma in situ (LCIS), or ductal carcinoma in situ (DCIS). 
         </li>
+        
        
         
-       <asp:ImageButton ID="ImageButton1" runat="server" Height="45px" ImageUrl="~/Images/gestarted.jpg" PostBackUrl="~/About.aspx" Width="150px" Border="0" BorderStyle="None"/>
+       <asp:ImageButton ID="ImageButton1" runat="server" Height="45px" ImageUrl="~/Images/gestarted.jpg" PostBackUrl="~/About.aspx" Width="150px" Border="0" BorderStyle="None" BackColor="#3F3F3F" />
     </ol>
     <p>2014 DopeOnARope</p>
 </asp:Content>
