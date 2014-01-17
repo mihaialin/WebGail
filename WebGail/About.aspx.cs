@@ -63,7 +63,7 @@ namespace WebGail
             proj = projection.Text;
             men = projection.Text;
             fchild = projection.Text;
-            bio = biopsy.Text;
+            bio = numbByopsies.Text;
             rel = firstRelatives.Text;
             hy = hyper.SelectedItem.ToString();
 
