@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using MySql.Data.MySqlClient;
+using System.Drawing;
 
 namespace WebGail
 {
@@ -28,7 +29,7 @@ namespace WebGail
 
             TableRow trh = new TableRow();
             TableCell[] tch = new TableCell[6];
-
+            double avg = 0.0;
 
 
             tch[0] = new TableCell();
@@ -89,8 +90,12 @@ namespace WebGail
                 tr.Cells.Add(tcw[4]);
                 tcw[5] = new TableCell();
                 tcw[5].Text = users[i].result + " %";
-                tr.Cells.Add(tcw[5]);
                
+                Color xtw = Color.White;
+
+                tcw[5].ForeColor = xtw;
+                tr.Cells.Add(tcw[5]);
+                avg = avg + Convert.ToDouble(users[i].result);
 
                 userTable.Rows.Add(tr);
                 
@@ -99,6 +104,31 @@ namespace WebGail
 
                 i++;
             }
+            avg = avg / i;
+            TableCell[] xtcw = new TableCell[6];
+            TableRow xtr = new TableRow();
+            xtcw[0] = new TableCell();
+            xtcw[0].Text = "";
+            xtr.Cells.Add(xtcw[0]);
+            xtcw[1] = new TableCell();
+            xtcw[1].Text = "Users  ";
+            xtr.Cells.Add(xtcw[1]);
+            xtcw[2] = new TableCell();
+            xtcw[2].Text = "average";
+            xtr.Cells.Add(xtcw[2]);
+            xtcw[3] = new TableCell();
+            xtcw[3].Text = "risk";
+            xtr.Cells.Add(xtcw[3]);
+            xtcw[4] = new TableCell();
+            xtcw[4].Text = "";
+            xtr.Cells.Add(xtcw[4]);
+            xtcw[5] = new TableCell();
+            xtcw[5].Text = Convert.ToInt32(avg).ToString() + "%";
+            Color xtwq = Color.White;
+            xtcw[5].ForeColor = xtwq;
+            xtr.Cells.Add(xtcw[5]);
+            userTable.Rows.Add(xtr);
+            
 
         }
 

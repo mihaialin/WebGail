@@ -18,13 +18,31 @@ namespace WebGail
         public static double absRisk = 0, avgRisk = 0, absRiskPctg = 0, avgRiskPctg = 0;
         public static string fname, lname, emailv, bday, racev, proj, men, fchild, bio, rel, hy;
 
-
+      
 
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
         protected void evaluate_Click(object sender, EventArgs e) {
+            fchild = firstChild.Text;
+            if (Convert.ToInt32(fchild) > 0)
+            {
+
+            }
+            else {
+                fchild = "0";
+            }
+            rel = firstRelatives.Text;
+            if (Convert.ToInt32(rel) > 0)
+            {
+
+            }
+            else
+            {
+                rel = "0";
+            }
+
             string[] qw = (birthDate.Text).Split('/');
             int xy = Convert.ToInt32(qw[0]);
             int ag = 2014 - xy;

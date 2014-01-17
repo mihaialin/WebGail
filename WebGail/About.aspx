@@ -15,7 +15,7 @@
         <tr><td>     Last name</td><td><asp:TextBox ID="lastName" runat="server"></asp:TextBox></td></tr>
         
                 
-        <tr><td>     Birtd date</td><td><asp:TextBox ID="birthDate" runat="server"></asp:TextBox></td></tr>
+        <tr><td>     Birth date</td><td><asp:TextBox ID="birthDate" runat="server"></asp:TextBox></td></tr>
         
                 
        <tr><td>      Email</td><td><asp:TextBox ID="email" runat="server"></asp:TextBox></td></tr>
@@ -66,6 +66,6 @@
     </article>
 
     <aside>
-        <h3>A</h3>
+        <h3>&nbsp;</h3>
     </aside>
 </asp:Content>

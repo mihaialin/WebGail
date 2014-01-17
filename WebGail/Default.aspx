@@ -33,5 +33,5 @@
         
        <asp:ImageButton ID="ImageButton1" runat="server" Height="45px" ImageUrl="~/Images/gestarted.jpg" PostBackUrl="~/About.aspx" Width="150px" Border="0" BorderStyle="None" BackColor="#3F3F3F" />
     </ol>
-    <p>2014 DopeOnARope</p>
+    <p>&nbsp;</p>
 </asp:Content>
